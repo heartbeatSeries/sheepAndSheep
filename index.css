@@ -1,0 +1,22 @@
+body,
+.container {
+  background-color: #c3ff8b;
+}
+.content-box {
+  width: calc(100% - 20px);
+  min-width: 200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.item {
+  background-color: #f5fdcf;
+  margin: 2px;
+}
+.item,
+.item svg {
+  width: 50px;
+  height: 50px;
+}
